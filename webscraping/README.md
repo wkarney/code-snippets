@@ -5,5 +5,5 @@ There a few options for running this script:
 * Via jupyter Notebook: Open [owgr-scraping.ipynb](https://github.com/wkarney/code-snippets/blob/master/webscraping/owgr-scraping.ipynb)
 * As Python 3 Script from Command Line: 
     `python OWGR-scrape.py`
-* As Dockerized container from Command Line: 
-    `./run.sh`
+
+Dockerized script will be made available in future update.
