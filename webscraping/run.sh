@@ -1,1 +1,1 @@
-docker run owgr-scraper
+docker run -rm owgr-scraper
