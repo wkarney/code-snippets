@@ -5,6 +5,6 @@ Notes for use:
 * Required packages shown in requirements.txt file
 * Edit lines 17 and 19 of [address-export.py](https://github.com/wkarney/code-snippets/tree/master/minted-address-scrape/address-export.py) with your [minted.com](https://minted.com) email and password
 * Run as Python 3.x script from command line: 
-    `python OWGR-scrape.py`
+    `python address-export.py`
 
 I hope to add a dockerized script will be made available in future update.
