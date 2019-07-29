@@ -14,7 +14,7 @@ driver.get(url)
 
 # Login form
 emailElem = driver.find_element_by_name('email')
-mailElem.send_keys('your-email-here') # replace with your actual email for login
+emailElem.send_keys('your-email-here') # replace with your actual email for login
 passwordElem = driver.find_element_by_name('password')
 passwordElem.send_keys('your-password-here') # replace with your actual password for login
 loginSubmit = driver.find_element_by_class_name('loginButton')
