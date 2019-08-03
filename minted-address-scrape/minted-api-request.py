@@ -39,7 +39,7 @@ listings = response.json()
 address_book = pd.DataFrame(listings)
 
 # Export to excel
-address_book.to_excel('./minted-addresses-api.xlsx')
+address_book.to_excel('./data/minted-addresses-api.xlsx')
 
 # Close selenium webdriver
 driver.close()

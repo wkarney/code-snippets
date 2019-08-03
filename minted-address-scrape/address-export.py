@@ -5,7 +5,7 @@ from time import sleep
 import re
 
 # driver = webdriver.Chrome(executable_path='/path-to-google-chromedriver')
-driver = webdriver.Chrome(executable_path='./chromedriver')
+driver = webdriver.Chrome()
 
 # URL for minted addressbook
 url = 'https://www.minted.com/addressbook/my-account/finalize/0?it=utility_nav'
@@ -59,6 +59,6 @@ columnsTitles = ['name', 'address', 'town', 'state','zipcode']
 
 address_book = address_book.reindex(columns=columnsTitles)
 
-address_book.to_excel('./minted-addresses.xlsx')
+address_book.to_excel('./data/minted-addresses.xlsx')
 
 driver.close()
